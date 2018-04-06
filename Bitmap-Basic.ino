@@ -1,9 +1,9 @@
 
-#include <Arduboy.h>
+#include <Arduboy2.h>
 #include "bitmaps.h"
 
 // make an instance of arduboy used for many functions
-Arduboy arduboy;
+Arduboy2 arduboy;
 
 // make an ArdBitmap instance that will use the given the screen buffer and dimensions
 #define ARDBITMAP_SBUF arduboy.getBuffer()
